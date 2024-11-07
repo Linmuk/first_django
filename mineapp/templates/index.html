@@ -1,0 +1,26 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<a href="{% url 'abt' %}">About Us</a>
+<a href="{% url 'contact' %}">Contact Us</a>
+<a href="{% url 'servic' %}">Services</a>
+<a href="{% url 'blo' %}">Blog</a>
+<a href="{% url 'assi' %}">assignment</a>
+<h2>Welcome to django</h2>
+<p><span>Lorem ipsum dolor sit amet,
+    consectetur adipisicing elit.
+    Ad consequuntur dolorem dolorum
+    error eum id iste officia sunt? Assumenda illum obcaecati odio odit quaerat.
+    Commodi iure laudantium minima rerum ut.</span></p>
+<img src="{% static 'images/din.jpg' %}" alt="">
+</body>
+</html>
